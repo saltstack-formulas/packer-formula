@@ -18,4 +18,4 @@ Available states
 ``packer``
 ----------
 
-Install packer and add it to path
+Install packer and add it to PATH
