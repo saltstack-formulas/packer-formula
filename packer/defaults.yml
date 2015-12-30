@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+packer:
+  download:
+    url:  https://releases.hashicorp.com/packer/VERSION/packer_VERSION_linux_amd64.zip
+    hash: 2f1ca794e51de831ace30792ab0886aca516bf6b407f6027e816ba7ca79703b5
+    version: 0.8.6
+  path:
+    extract_to: /opt/packer/VERSION
+    profile: /etc/profile.d/packer.sh 
