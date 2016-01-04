@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+# vim: ft=sls
+
+{% from "packer/map.jinja" import packer with context %}
+
 # Ensure that packer is added to the environment
 packer-env-file:
   file.managed:
