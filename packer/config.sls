@@ -3,4 +3,4 @@
 packer-env-file:
   file.managed:
     - name: {{ packer.path.profile }}
-    - contents: "export PATH=$PATH:{{ packer.path.profile|replace('VERSION', packer.download.version) }}"
+    - contents: "export PATH=$PATH:{{ packer.path.extract_to|replace('VERSION', packer.download.version) }}"
