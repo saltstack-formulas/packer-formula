@@ -12,3 +12,11 @@ packer-extract-binary:
     - source: {{ packer.download.url|replace('VERSION', packer.download.version) }}
     - source_hash: {{ packer.download.hash }}
     - archive_format: zip
+  # make packer executable
+  cmd.run:
+    - name: |
+        chmod +x {{ extract_path }}/packer
+    - runas: root
+    - shell: /bin/bash
+    - require:
+        - archive: packer-extract-binary
