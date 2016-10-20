@@ -1,4 +1,5 @@
 packer:
-  download:
-    version: '0.10.0'
-    hash: "sha256=7d51fc5db19d02bbf32278a8116830fae33a3f9bd4440a58d23ad7c863e92e28"
+  lookup:
+    download:
+      version: '0.10.0'
+      hash: "sha256=7d51fc5db19d02bbf32278a8116830fae33a3f9bd4440a58d23ad7c863e92e28"
