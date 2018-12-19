@@ -12,6 +12,7 @@ packer-extract-binary:
     - source: {{ packer.download.url|replace('VERSION', packer.download.version) }}
     - source_hash: {{ packer.download.hash }}
     - archive_format: zip
+    - enforce_toplevel: False
   # make packer executable
   cmd.run:
     - name: |
