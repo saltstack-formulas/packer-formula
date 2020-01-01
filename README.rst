@@ -19,3 +19,8 @@ Available states
 ----------
 
 Install packer and add it to PATH
+
+``packer.templates``
+----------
+
+Manage templates repositories for Packer

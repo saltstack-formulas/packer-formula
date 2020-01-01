@@ -3,3 +3,9 @@ packer:
     download:
       version: '0.11.0'
       hash: "sha256=318ffffa13763eb6f29f28f572656356dc3dbf8d54c01ffddd1c5e2f08593adb"
+    templates:
+      ubuntu:
+        address: https://github.com/boxcutter/ubuntu.git
+        revision: master
+      bento:
+        address: https://github.com/chef/bento.git
