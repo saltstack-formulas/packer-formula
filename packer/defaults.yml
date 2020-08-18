@@ -7,7 +7,8 @@ default:
     version: '1.6.0'
   path:
     extract_to: /opt/packer/VERSION
-    profile: /etc/profile.d/packer.sh 
+    profile: /etc/profile.d/packer.sh
+    templates: /srv/packer/templates
 #Debian:
 #Suse:
 #Arch:
