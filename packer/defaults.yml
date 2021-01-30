@@ -3,8 +3,7 @@
 default:
   download:
     url:  https://releases.hashicorp.com/packer/VERSION/packer_VERSION_linux_amd64.zip
-    hash: 'sha256=a678c995cb8dc232db3353881723793da5acc15857a807d96c52e96e671309d9'
-    version: '1.6.0'
+    version: '1.6.6'
   path:
     extract_to: /opt/packer/VERSION
     profile: /etc/profile.d/packer.sh 
